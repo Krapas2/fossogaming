@@ -234,9 +234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  speed: 20
-  acceleration: 0.01
-  deceleration: 0.05
+  speed: 25
+  acceleration: 0.05
+  deceleration: 0.25
   stopOnCollide:
     serializedVersion: 2
     m_Bits: 256

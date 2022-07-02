@@ -27,6 +27,7 @@ public class Player : NetworkBehaviour
             Camera mainCam = Camera.main;
             CameraController connCam = FindObjectOfType<CameraController>();
 
+            //change cameras when connect
             connCam.player = this;
             connCam.gameObject.SetActive(true);
             mainCam.enabled = false;
